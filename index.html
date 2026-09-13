@@ -1,411 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Greater Noida Institute of Technology</title>
+    <title>GNIOT College Website</title>
+    <style>
+        body {
+            font: 16px Arial;
+            margin: 0;
+            background: #f5f8fc;
+            color: #222;
+        }
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,sans-serif;
-}
+        header {
+            background: #0b3d91;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
 
-body{
-    background:#f4f4f4;
-    color:#333;
-}
+        header img {
+            width: 250px;
+        }
 
-header{
-    background:#003366;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
+        nav {
+            background: #082b66;
+            text-align: center;
+            padding: 12px;
+        }
 
-header img{
-    width:120px;
-    margin-bottom:10px;
-}
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
 
-nav{
-    background:#00509e;
-    padding:12px;
-    text-align:center;
-}
+        section {
+            background: white;
+            margin: 15px auto;
+            padding: 20px;
+            max-width: 1000px;
+            border-radius: 8px;
+        }
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:15px;
-    font-weight:bold;
-}
+        h2 {
+            color: #0b3d91;
+        }
 
-nav a:hover{
-    color:yellow;
-}
+        .box {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
 
-section{
-    background:white;
-    margin:20px;
-    padding:20px;
-    border-radius:8px;
-}
+        .card {
+            background: #e8f0ff;
+            padding: 12px;
+            border-radius: 5px;
+        }
 
-.department{
-    border:1px solid #ccc;
-    padding:15px;
-    margin-top:15px;
-    border-radius:6px;
-    background:#fafafa;
-}
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
 
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-}
+        th {
+            background: #0b3d91;
+            color: white;
+        }
 
-table,th,td{
-    border:1px solid black;
-}
+        td, th {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
 
-th{
-    background:#003366;
-    color:white;
-}
-
-th,td{
-    padding:10px;
-    text-align:center;
-}
-
-footer{
-    background:#003366;
-    color:white;
-    text-align:center;
-    padding:15px;
-    margin-top:20px;
-}
-</style>
-
+        footer {
+            background: #082b66;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
 
-<header>
-
-<img src="https://www.gniotgroup.edu.in/img/gniot-logo-new-2026.webp?v=11" alt="GNIOT Logo">
-
-<h1>Greater Noida Institute of Technology (GNIOT)</h1>
-
-<p>Approved by AICTE | Affiliated to AKTU | NAAC Accredited</p>
-
-</header>
-
-<nav>
-
-<a href="#home">Home</a>
-
-<a href="#about">About</a>
-
-<a href="#departments">Departments</a>
-
-<a href="#courses">Courses</a>
-
-<a href="#faculty">Faculty</a>
-
-<a href="#contact">Contact</a>
-
-</nav>
-
-<section id="home">
-
-<h2>Welcome</h2>
-
-<p>
-Welcome to Greater Noida Institute of Technology (GNIOT).
-The institute provides quality education in engineering,
-management and computer applications with modern laboratories,
-experienced faculty members and excellent placement support.
-</p>
-
-</section>
-
-<section id="about">
-
-<h2>About the Institute</h2>
-
-<p>
-Greater Noida Institute of Technology (GNIOT) is one of the
-leading educational institutions in Greater Noida.
-The institute focuses on quality education, innovation,
-research and overall personality development of students.
-</p>
-
-<h3>Affiliation</h3>
-
-<p>Affiliated to Dr. A.P.J. Abdul Kalam Technical University (AKTU).</p>
-
-<h3>Academic Objectives</h3>
-
-<ul>
-<li>Provide quality technical education.</li>
-<li>Develop research and innovation skills.</li>
-<li>Promote industry-oriented learning.</li>
-<li>Enhance employability of students.</li>
-</ul>
-
-<h3>Facilities</h3>
-
-<ul>
-<li>Smart Classrooms</li>
-<li>Digital Library</li>
-<li>Computer Laboratories</li>
-<li>Sports Complex</li>
-<li>Hostel Facilities</li>
-</ul>
-
-<h3>Educational Mission</h3>
-
-<p>
-To produce skilled engineers and professionals with strong
-technical knowledge, leadership qualities and ethical values.
-</p>
-
-</section>
-
-<section id="departments">
-
-<h2>Our Departments</h2>
-
-<div class="department">
-
-<h3>Computer Science and Engineering</h3>
-
-<p>
-Focuses on software development, AI, data science,
-cyber security and cloud computing.
-</p>
-
-<b>Programmes Offered</b>
-
-<ul>
-<li>B.Tech CSE</li>
-<li>M.Tech CSE</li>
-</ul>
-
-<b>Laboratories</b>
-
-<ul>
-<li>Programming Lab</li>
-<li>Database Lab</li>
-<li>Networking Lab</li>
-</ul>
-
-<b>Major Areas</b>
-
-<p>AI, ML, Data Science, Software Engineering</p>
-
-</div>
-
-<div class="department">
-
-<h3>Information Technology</h3>
-
-<p>
-Provides practical knowledge in software engineering,
-web technologies and networking.
-</p>
-
-<b>Programmes Offered</b>
-
-<ul>
-<li>B.Tech IT</li>
-</ul>
-
-<b>Laboratories</b>
-
-<ul>
-<li>Web Technology Lab</li>
-<li>Operating System Lab</li>
-</ul>
-
-<b>Major Areas</b>
-
-<p>Networking, Web Development, Cloud Computing</p>
-
-</div>
-
-<div class="department">
-
-<h3>Electronics and Communication Engineering</h3>
-
-<p>
-Focuses on communication systems,
-embedded systems and VLSI.
-</p>
-
-</div>
-
-<div class="department">
-
-<h3>Electrical Engineering</h3>
-
-<p>
-Provides knowledge of electrical machines,
-power systems and control engineering.
-</p>
-
-</div>
-
-<div class="department">
-
-<h3>Civil Engineering</h3>
-
-<p>
-Focuses on construction,
-surveying and structural engineering.
-</p>
-
-</div>
-
-<div class="department">
-
-<h3>Mechanical Engineering</h3>
-
-<p>
-Provides education in manufacturing,
-thermal engineering and design.
-</p>
-
-</div>
-
-</section>
-
-<section id="courses">
-
-<h2>Courses Offered</h2>
-
-<ul>
-
-<li>Bachelor of Technology (B.Tech)</li>
-
-<li>Master of Technology (M.Tech)</li>
-
-<li>Bachelor of Computer Applications (BCA)</li>
-
-<li>Master of Computer Applications (MCA)</li>
-
-<li>MBA</li>
-
-</ul>
-
-</section>
-
-<section id="faculty">
-
-<h2>Faculty Information</h2>
-
-<table>
-
-<tr>
-
-<th>Faculty Name</th>
-
-<th>Designation</th>
-
-<th>Department</th>
-
-<th>Specialisation</th>
-
-</tr>
-
-<tr>
-
-<td>Dr. Rajesh Kumar</td>
-
-<td>Professor</td>
-
-<td>CSE</td>
-
-<td>Artificial Intelligence</td>
-
-</tr>
-
-<tr>
-
-<td>Dr. Neha Sharma</td>
-
-<td>Associate Professor</td>
-
-<td>IT</td>
-
-<td>Cloud Computing</td>
-
-</tr>
-
-<tr>
-
-<td>Mr. Amit Verma</td>
-
-<td>Assistant Professor</td>
-
-<td>ECE</td>
-
-<td>Embedded Systems</td>
-
-</tr>
-
-<tr>
-
-<td>Mrs. Pooja Singh</td>
-
-<td>Assistant Professor</td>
-
-<td>Mechanical</td>
-
-<td>Thermal Engineering</td>
-
-</tr>
-
-</table>
-
-</section>
-
-<section id="contact">
-
-<h2>Contact Us</h2>
-
-<p><b>Address:</b> Plot No.7, Knowledge Park-II, Greater Noida, Uttar Pradesh</p>
-
-<p><b>Phone:</b> +91-8860606661</p>
-
-<p><b>Email:</b>
-<a href="mailto:info@gniot.net">info@gniot.net</a>
-</p>
-
-<p><b>Website:</b>
-<a href="https://www.gniotgroup.edu.in" target="_blank">
-www.gniotgroup.edu.in
-</a>
-</p>
-
-</section>
-
-<footer>
-
-<p>
-© 2026 Greater Noida Institute of Technology (GNIOT)
-</p>
-
-<p>
-Department of Information Technology
-</p>
-
-</footer>
+    <header>
+        <img src="https://www.gniotgroup.edu.in/img/gniot-logo-new-2026.webp?v=11" alt="GNIOT">
+        <h1>Greater Noida Institute Of Technology</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#departments">Departments</a>
+        <a href="#courses">Courses</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to GNIOT</h2>
+        <p>Transforming Students Into Industry Ready Professionals.</p>
+    </section>
+
+    <section id="about">
+        <h2>About the Institute</h2>
+        <p>
+            GNIOT is a leading engineering and technology institute committed
+            to quality education and skilled professionals.
+        </p>
+    </section>
+
+    <section id="departments">
+        <h2>Departments</h2>
+
+        <div class="box">
+            <div class="card">CSE - AI & Programming</div>
+            <div class="card">IT - Software Technology</div>
+            <div class="card">ECE - Communication</div>
+            <div class="card">Electrical - Power Systems</div>
+            <div class="card">Civil - Construction</div>
+            <div class="card">Mechanical - Manufacturing</div>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h2>Courses & Programs</h2>
+
+        <ul>
+            <li>B.Tech</li>
+            <li>M.Tech</li>
+            <li>BCA</li>
+            <li>MCA</li>
+        </ul>
+    </section>
+
+    <section id="faculty">
+        <h2>Faculty</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Specialisation</th>
+            </tr>
+
+            <tr>
+                <td>Dr. Arun Kumar Sharma</td>
+                <td>IT</td>
+                <td>Artificial Intelligence</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <p>Phone: +91 120 232 3001</p>
+        <p>Email: info@gniot.net.in</p>
+        <p>Website: www.gniotgroup.edu.in</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 GNIOT | Academic & Engineering Education</p>
+    </footer>
 
 </body>
 </html>
